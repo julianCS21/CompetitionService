@@ -1,4 +1,4 @@
-package futbol.competitions.infraestructure.outbound;
+package futbol.competitions.core;
 
 
 import lombok.Getter;
