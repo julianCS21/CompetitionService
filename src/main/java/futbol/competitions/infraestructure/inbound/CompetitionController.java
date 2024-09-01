@@ -12,6 +12,7 @@ import reactor.core.publisher.Mono;
 
 @RestController
 @RequestMapping("/api/v1/competitions")
+@CrossOrigin(origins = "*")
 public class CompetitionController {
 
     private final CompetitionService competitionService;
